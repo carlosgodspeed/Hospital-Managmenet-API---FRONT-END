@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?logo=javascript&logoColor=black)
 
 Front-end em React para o
-[hospital-management-api](../hospital-management-api).
+[hospital-management-api](https://github.com/carlosgodspeed/hospital-management-api).
 ---
 
 ## Funcionalidades atuais
