@@ -1,0 +1,61 @@
+.introducao {
+  color: var(--cor-texto-suave);
+}
+
+.resumo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--espaco-4);
+  margin: var(--espaco-5) 0 var(--espaco-7) 0;
+}
+
+.resumo > * {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.numero {
+  font-family: var(--fonte-titulo);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.rotulo {
+  font-size: 13px;
+  color: var(--cor-texto-suave);
+}
+
+.tituloSecao {
+  margin-top: var(--espaco-6);
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.linhaConsulta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+}
+
+.detalheConsulta {
+  margin: 0;
+  color: var(--cor-texto-suave);
+  font-size: 13px;
+}
+
+.vazio {
+  margin: 0;
+  color: var(--cor-texto-suave);
+}
+
+@media (max-width: 640px) {
+  .resumo {
+    grid-template-columns: 1fr;
+  }
+}

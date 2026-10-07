@@ -1,0 +1,27 @@
+.badge {
+  display: inline-block;
+  padding: 2px var(--espaco-3);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.atencao {
+  background-color: var(--cor-atencao-clara);
+  color: var(--cor-atencao);
+}
+
+.sucesso {
+  background-color: var(--cor-sucesso-clara);
+  color: var(--cor-sucesso);
+}
+
+.erro {
+  background-color: var(--cor-erro-clara);
+  color: var(--cor-erro);
+}
+
+.neutro {
+  background-color: var(--cor-primaria-clara);
+  color: var(--cor-primaria);
+}

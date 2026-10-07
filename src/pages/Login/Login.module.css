@@ -1,0 +1,87 @@
+.pagina {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-fundo);
+  padding: var(--espaco-5);
+}
+
+.cartaoLogin {
+  width: 100%;
+  max-width: 380px;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-grande);
+  box-shadow: var(--sombra-suave);
+  padding: var(--espaco-7) var(--espaco-6);
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: var(--espaco-6);
+}
+
+.icone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--raio-medio);
+  background-color: var(--cor-primaria-clara);
+  color: var(--cor-primaria);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: var(--espaco-4);
+}
+
+.titulo {
+  font-size: 22px;
+  margin-bottom: var(--espaco-1);
+}
+
+.subtitulo {
+  color: var(--cor-texto-suave);
+  font-size: 14px;
+  margin: 0;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--cor-texto-suave);
+}
+
+.campo input {
+  padding: var(--espaco-3);
+  border-radius: var(--raio-pequeno);
+  border: 1px solid var(--cor-borda);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.campo input:focus {
+  border-color: var(--cor-primaria);
+  outline: none;
+}
+
+.erro {
+  color: var(--cor-erro);
+  font-size: 13px;
+  margin: 0;
+}
+
+.formulario button {
+  margin-top: var(--espaco-2);
+  width: 100%;
+}

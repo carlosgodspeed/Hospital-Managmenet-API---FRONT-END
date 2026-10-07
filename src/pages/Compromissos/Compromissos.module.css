@@ -1,0 +1,83 @@
+.cabecalhoPagina {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--espaco-5);
+}
+
+.cabecalhoPagina h1 {
+  margin: 0;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.linhaConsulta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+  flex-wrap: wrap;
+}
+
+.detalheConsulta {
+  margin: 0;
+  color: var(--cor-texto-suave);
+  font-size: 13px;
+}
+
+.direita {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+}
+
+.vazio {
+  margin: 0;
+  color: var(--cor-texto-suave);
+}
+
+/* Formulário de nova consulta (usado em NovoCompromissoForm.jsx) */
+.formularioCard {
+  margin-bottom: var(--espaco-5);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+  margin-top: var(--espaco-4);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--cor-texto-suave);
+}
+
+.campo input,
+.campo select {
+  padding: var(--espaco-3);
+  border-radius: var(--raio-pequeno);
+  border: 1px solid var(--cor-borda);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.acoesFormulario {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--espaco-3);
+}
+
+.erro {
+  color: var(--cor-erro);
+  font-size: 13px;
+  margin: 0;
+}

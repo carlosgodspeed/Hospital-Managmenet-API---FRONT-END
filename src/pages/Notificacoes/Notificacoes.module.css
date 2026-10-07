@@ -1,0 +1,31 @@
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.itemNotificacao {
+  opacity: 1;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+  flex-wrap: wrap;
+}
+
+.mensagem {
+  margin: 0 0 4px 0;
+}
+
+.data {
+  font-size: 12px;
+  color: var(--cor-texto-suave);
+}
+
+.vazio {
+  margin: 0;
+  color: var(--cor-texto-suave);
+}

@@ -1,0 +1,107 @@
+
+:root {
+  /* Cores base */
+  --cor-fundo: #eff4f1;
+  --cor-superficie: #ffffff;
+  --cor-texto: #17302b;
+  --cor-texto-suave: #4f6b63;
+  --cor-borda: #d7dfda;
+
+  /* Marca */
+  --cor-primaria: #2b6f64;
+  --cor-primaria-escura: #1f5248;
+  --cor-primaria-clara: #e2efec;
+
+  /* Estados */
+  --cor-atencao: #d98c3f;
+  --cor-atencao-clara: #fbe9d6;
+  --cor-erro: #b5503d;
+  --cor-erro-clara: #f6e2dd;
+  --cor-sucesso: #3f8f5f;
+  --cor-sucesso-clara: #e1f1e6;
+
+  /* Cores por perfil (usadas como destaque lateral em cards/badges) */
+  --cor-paciente: #2b6f64;
+  --cor-medico: #4c5fb0;
+  --cor-admin: #b0792e;
+
+  /* Tipografia */
+  --fonte-titulo: 'Fraunces', serif;
+  --fonte-corpo: 'IBM Plex Sans', sans-serif;
+
+  /* Espaçamento (escala base 4px) */
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 12px;
+  --espaco-4: 16px;
+  --espaco-5: 24px;
+  --espaco-6: 32px;
+  --espaco-7: 48px;
+
+  /* Bordas e sombra */
+  --raio-pequeno: 6px;
+  --raio-medio: 12px;
+  --raio-grande: 20px;
+  --sombra-suave: 0 2px 10px rgba(23, 48, 43, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  margin: 0 0 var(--espaco-3) 0;
+  color: var(--cor-texto);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 var(--espaco-3) 0;
+}
+
+a {
+  color: var(--cor-primaria);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Mantém o foco visível no teclado, mas com um estilo combinando com a paleta */
+:focus-visible {
+  outline: 2px solid var(--cor-primaria);
+  outline-offset: 2px;
+}

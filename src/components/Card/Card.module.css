@@ -1,0 +1,27 @@
+.card {
+  background-color: var(--cor-superficie);
+  border-radius: var(--raio-medio);
+  border: 1px solid var(--cor-borda);
+  padding: var(--espaco-5);
+  box-shadow: var(--sombra-suave);
+}
+
+.destaque-paciente {
+  border-left: 4px solid var(--cor-paciente);
+}
+
+.destaque-medico {
+  border-left: 4px solid var(--cor-medico);
+}
+
+.destaque-admin {
+  border-left: 4px solid var(--cor-admin);
+}
+
+.destaque-atencao {
+  border-left: 4px solid var(--cor-atencao);
+}
+
+.destaque-sucesso {
+  border-left: 4px solid var(--cor-sucesso);
+}
