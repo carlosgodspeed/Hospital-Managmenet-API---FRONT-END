@@ -40,17 +40,6 @@ src/
 └─ index.css        → tokens de design (cores, fontes, espaçamentos) + reset
 ```
 
-## Design
-
-**Paleta:** fundo verde-pálido suave, texto quase-preto esverdeado, verde-azulado
-clínico como cor principal, âmbar para atenção/notificação, terracota escuro
-para erro/cancelamento. Cada perfil (Paciente/Médico/Admin) tem uma cor de
-destaque própria, usada como borda lateral nos cards — **mas hoje essa é a
-única diferença visual entre os perfis** (ver limitações abaixo).
-
-**Tipografia:** `Fraunces` (serifada) nos títulos + `IBM Plex Sans` no corpo.
-
----
 
 ## ⚠️ Limitações conhecidas (feedback de uso real)
 
